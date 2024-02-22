@@ -915,13 +915,13 @@ test = ["ipykernel", "pre-commit", "pytest", "pytest-cov", "pytest-timeout"]
 
 [[package]]
 name = "langchain"
-version = "0.1.6"
+version = "0.1.5"
 description = "Building applications with LLMs through composability"
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "langchain-0.1.6-py3-none-any.whl", hash = "sha256:925e180fd1ae53b7085e46b3cdc9db04c24ddc6f4ac08f171eea29498d99603a"},
-    {file = "langchain-0.1.6.tar.gz", hash = "sha256:a885e16c10b9ed11f312eaa6570bc48d27305362b26f6c235cafdcc794e26e71"},
+    {file = "langchain-0.1.5-py3-none-any.whl", hash = "sha256:4614118d4a95b2e7ba3611a0b6b21707a259a21652a04fbe3c31205bcf3fcd50"},
+    {file = "langchain-0.1.5.tar.gz", hash = "sha256:69603a5bb21b044ddea69d38131dbbf47475afdf79728644faa67d1ad325d652"},
 ]
 
 [package.dependencies]
@@ -929,8 +929,8 @@ aiohttp = ">=3.8.3,<4.0.0"
 async-timeout = {version = ">=4.0.0,<5.0.0", markers = "python_version < \"3.11\""}
 dataclasses-json = ">=0.5.7,<0.7"
 jsonpatch = ">=1.33,<2.0"
-langchain-community = ">=0.0.18,<0.1"
-langchain-core = ">=0.1.22,<0.2"
+langchain-community = ">=0.0.17,<0.1"
+langchain-core = ">=0.1.16,<0.2"
 langsmith = ">=0.0.83,<0.1"
 numpy = ">=1,<2"
 pydantic = ">=1,<3"
@@ -2267,4 +2267,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "7aac135140ec7c9bd6fe4dfa28fe5c4e75a71ca0beb9d941da5e7a094c172e26"
+content-hash = "7a6e7e79ee6a2ae39c51a1cab6461fdca5d15bc2aff585f83bb9b9b55a7c3fb7"
